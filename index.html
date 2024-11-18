@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazin - Área do Cliente</title>
+    <link rel="icon" href="./imagens/favIcon.png">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <div class="background-image"> </div>
+    <div class="login-form-container">
+        <img src="imagens/logo_topo.png" alt="Logo Gazin">
+        <form action="/login" method="POST">
+            <label for="user"></label>
+            <input type="text" id="user" name="user" required placeholder="Digite seu CPF ou CNPJ">
+            
+            <label for="password"></label>
+            <input type="password" id="password" name="password" required placeholder="Digite sua senha">
+            
+            <button type="submit" class="login-button">Acessar</button>
+        </form>
+        <p class="password-reset-link"><a href="/forgot-password">Esqueci a senha</a></p>
+        
+        <div class="registration-section">
+            <h2>Não tem cadastro?</h2>
+            <button class="registration-button">Quero me cadastrar</button>
+        </div>
+    </div>
+    <footer class="footer-container">
+        <p class="footer-frase">Tenha acesso a pagamentos, extratos, informações cadastrais e muito mais.</p>
+        <p><strong>Dúvidas?</strong> Ligue para 0800 647 7778</p>
+        <p>Horário de atendimento: Seg a Sex - 09h00 a 21h00 | Aos sábados - 09h00 a 17h00 (Horário de Brasília).</p>
+    </footer>
+</body>
+</html>
